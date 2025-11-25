@@ -16,9 +16,9 @@ PORT=8081 http-server dist --cors -c-1
 
 You can test this example add-on by adding the GitHub Pages URL:
 
-[https://bdxpq.github.io/manifest.json](https://bdxpq.github.io/manifest.json)
+[https://bdxpq.github.io/plugin/stremio/manifest.json](https://bdxpq.github.io/plugin/stremio/manifest.json)
 
-as the [Add-on Repository URL](https://github.com/bdxpq/bdxpq.github.io/blob/main//README.md#dont-know-where-to-add-the-add-on-repository-url)
+as the [Add-on Repository URL](https://github.com/bdxpq/plugin/blob/main/README.md#dont-know-where-to-add-the-add-on-repository-url)
 
 
 ## Using with Now.sh
@@ -34,8 +34,8 @@ npm i -g now
 - Clone Repository:
 
 ```
-git clone --recursive https://github.com/bdxpq/bdxpq.github.io/
-cd stremio-static-addon-example
+git clone --recursive https://github.com/bdxpq/plugin/stremio/
+cd bdxpq-stremio-addon
 ```
 
 - Publish with `now.sh`:
@@ -51,14 +51,14 @@ $ now
 > Deployment complete!
 ```
 
-In which case, we'll use `https://stremio-static-addon-example-ijshgdlgoe.now.sh/manifest.json` as the [Add-on Repository URL](https://github.com/bdxpq/bdxpq.github.io/blob/main//README.md#dont-know-where-to-add-the-add-on-repository-url) to load our add-on in Stremio
+In which case, we'll use `https://stremio-static-addon-example-ijshgdlgoe.now.sh/manifest.json` as the [Add-on Repository URL](https://github.com/bdxpq/plugin/blob/main//README.md#dont-know-where-to-add-the-add-on-repository-url) to load our add-on in Stremio
 
 
 ## Using with Express
 
 We've made a separate repository demonstrating how to use these static files with a Node.js Express Server. The example also shows how to make a locally hosted add-on accessible remotely with the help of the `localtunnel` module.
 
-This example add-on can be found at [stremio-express-static-addon](https://github.com/bdxpq/bdxpq.github.io/).
+This example add-on can be found at [stremio-express-static-addon](https://github.com/bdxpq/plugin/).
 
 
 ### Don't know where to add the Add-on Repository URL?
