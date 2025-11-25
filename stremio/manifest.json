@@ -1,0 +1,16 @@
+{
+  "id": "io.github.bdxpq",
+  "logo":"https://bdxpq.github.io/hk/img/fugu.png",
+  "version": "1.0.1",
+  "name": "bdxpq stremio addon",
+  "description": "bdix stremio add-on",
+  "resources": ["catalog", "meta", "stream"],
+  "types": ["movie"],
+  "catalogs": [
+    {
+      "type": "movie",
+      "id": "fugubdix",
+      "name": "BDIX"
+    }
+  ]
+}
